@@ -1,7 +1,6 @@
 import os
 
 import uvicorn
-
 if __name__ == "__main__":
     workers = int(os.getenv("WORKERS", "1"))
     # multiprocessing.freeze_support()
